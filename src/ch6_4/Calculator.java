@@ -2,6 +2,13 @@ package ch6_4;
 
 public class Calculator {
 	
+	int a, b;
+	
+	public int divide(int a, int b) {
+		this.a = a;
+		this.b = b;
+		return a / b;
+	}
 	
 	public int sum(int x, int y){//return 값이 있을 때->return값의 자료타입
 		int sum = x + y;
